@@ -275,21 +275,22 @@
           <button class="donate-btn" onclick="send()" disabled>Donate</button>
         </div>
       </div>
-        <footer class="text-center text-lg-start colored" style='position: fixed;bottom: 0;width:100%;height: 4vh;padding-bottom: 5vh;'>
-
+        <footer class="text-center text-lg-start colored" style='position: fixed;bottom: 0;width:100%;height: 5vh;display: flex;justify-content: space-between;align-items: center;'>
+          <button class="toggels" id='buton1'  onclick='window.addEventListener(`scroll`, changingcolor);window.removeEventListener("scroll",appearingonscroll);this.blocked=true;document.getElementById(`buton2`).blocked=false;'> 
+            RAINBOW COLORS
+          </button>
           <!-- Copyright -->
           <div class="text-center p-3" style="color:white">
             © 2021 Copyright:
             <a class="text-dark" href='about.html'style="color: white !important;;">yassine</a>
           </div>
+
+          <button class="toggels" id='buton2'  onclick='window.addEventListener(`scroll`, appearingonscroll);window.removeEventListener("scroll",changingcolor);this.blocked=true;document.getElementById(`buton1`).blocked=false;'> 
+            FADE IN
+        </button>
           <!-- Copyright -->
         </footer>
-        <button class="toggels" id='buton1' style="position: fixed;bottom: 0;" onclick='window.addEventListener(`scroll`, changingcolor);window.removeEventListener("scroll",appearingonscroll);this.blocked=true;document.getElementById(`buton2`).blocked=false;'> 
-          RAINBOW COLORS
-        </button>
-        <button class="toggels" id='buton2' style="position: fixed;right:0;bottom: 0;" onclick='window.addEventListener(`scroll`, appearingonscroll);window.removeEventListener("scroll",changingcolor);this.blocked=true;document.getElementById(`buton1`).blocked=false;'> 
-          FADE IN
-      </button>
+
         <div class="empty">
 
         </div>
