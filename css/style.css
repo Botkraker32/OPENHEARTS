@@ -393,7 +393,6 @@ input[type=number] {
   .toggels{
     font-size: 0.7em;
     padding-right: 10vw;
-    width:5vh;
   }
   }
   @media screen and (max-width: 320px) {
@@ -406,9 +405,5 @@ input[type=number] {
     .money .contry{font-size: 0.5em;}
     .country input{
       font-size: 0.5em;
-    }
-    .toggels{
-      font-size: 0.5em;
-      width:5vh;
     }
   }
