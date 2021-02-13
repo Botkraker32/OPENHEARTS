@@ -333,6 +333,9 @@ input[type=number] {
 .toggels:hover{
   background-color:transparent;
 }
+footer{
+  font-size: 80%; 
+}
 
   @media screen and (max-width: 1024px) {
     .content{
@@ -378,7 +381,7 @@ input[type=number] {
     width:100%;
   }
   .country input{
-    font-size: 1em;
+    font-size: 50%;
     width: 10vw;
   }
   .country i{
@@ -391,7 +394,7 @@ input[type=number] {
     padding-bottom: 0;
   }
   .toggels{
-    font-size: 0.7em;
+    font-size: 50%;
     padding-right: 10vw;
   }
   }
@@ -405,5 +408,8 @@ input[type=number] {
     .money .contry{font-size: 0.5em;}
     .country input{
       font-size: 0.5em;
+    }
+    footer{
+      font-size:20%;
     }
   }
