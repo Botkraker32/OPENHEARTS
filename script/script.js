@@ -2,7 +2,7 @@ SIGNUP=false
 total=0
 function changingcolor(){
     document.getElementsByClassName('colored')[0].style.opacity='1'
-    document.getElementsByClassName('colored')[0].style.backgroundColor=`hsl(${360+window.scrollY/6}, 100%, 50%)`;
+    document.getElementsByClassName('colored')[0].style.backgroundColor=`hsl(${360+window.scrollY/6}, 60%, 50%)`;
 }
 function appearingonscroll(){
     document.getElementsByClassName('colored')[0].style.backgroundColor='gray'
