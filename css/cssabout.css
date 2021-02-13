@@ -3,9 +3,7 @@
 body{
     background-image: linear-gradient(#6e61da, #ffff);
     background-repeat: no-repeat;
-    height: 100vh;
-    overflow: hidden;
-}
+    height: 100vh;}
 header{
     display:flex;
     flex-direction:column;
