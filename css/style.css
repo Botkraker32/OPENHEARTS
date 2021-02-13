@@ -413,3 +413,7 @@ footer{
       font-size:20%;
     }
   }
+  @media screen and (max-width: 425px) {
+    .p-3{
+      font-size:20%;
+    }
