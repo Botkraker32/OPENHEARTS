@@ -24,6 +24,7 @@ header >img{
 .card{
     background-color:#00000069 ;
     width: 25vw;
+    height:auto;
     padding-bottom: 1vh;
     border-radius: 8px;
     display: flex;
