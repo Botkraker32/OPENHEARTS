@@ -412,7 +412,7 @@ footer{
     }
     .money .contry{font-size: 0.5em;}
     .country input{
-      font-size: 0.5em;
+      font-size: 1.5em;
     }
     footer{
       font-size:20%;
@@ -420,5 +420,5 @@ footer{
   }
   @media screen and (max-width: 425px) {
     .p-3{
-      font-size:20%;
+      font-size:0.8;
 	  }}
